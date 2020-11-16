@@ -16,7 +16,7 @@ void aaa()
 	for (int i = 0;i < 5;i++)
 	{
 		std::cin >> p1.name[i] >> p1.point[i];
-		if (i >= 0)
+		if (i < 5)
 		{
 			if (p1.point[i]>max)
 			{
